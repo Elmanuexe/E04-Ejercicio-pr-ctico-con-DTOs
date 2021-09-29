@@ -1,5 +1,6 @@
 package triana.salesianos.dam.E04.E01;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -9,7 +10,7 @@ import javax.persistence.Id;
 
 @Entity
 @Data
-@NoArgsConstructor
+@NoArgsConstructor @AllArgsConstructor
 public class Direccion {
 
     @Id
