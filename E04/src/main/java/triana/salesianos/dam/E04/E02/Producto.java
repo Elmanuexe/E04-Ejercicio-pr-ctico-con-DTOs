@@ -19,7 +19,7 @@ public class Producto {
     private String nombre;
     private String desc;
     private double pvp;
-    
+
     @ElementCollection
     private List<String> imagenes;
 
